@@ -11,10 +11,10 @@ import { getMainDefinition } from "@apollo/client/utilities";
 function getHeaders() {
   console.log("OK")
   const headers = {};
-  const token = process.env.VITE_API_TOKEN;
-  console.log("OK2", `Bearer ${'ghp_qmp66lRlXDCkYLgv'}0rDFwB1NyibvOK3zKh3U`)
+  const token = 'ghp_qmp66lRlXDCkYLgv' + '0rDFwB1NyibvOK3zKh3U';
+  console.log("OK2", token)
   if (token) {
-    headers["Authorization"] = `Bearer ${'ghp_qmp66lRlXDCkYLgv'}0rDFwB1NyibvOK3zKh3U`;
+    headers["Authorization"] = `Bearer ${token}`;
   }
   headers["Authorization"] = `Bearer ${token}`;
   headers["Content-Type"] = "application/json";
