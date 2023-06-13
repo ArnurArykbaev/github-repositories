@@ -1,1 +1,1 @@
-https://arnurarykbaev.github.io/github-api-project/
+https://arnurarykbaev.github.io/github-repositories/

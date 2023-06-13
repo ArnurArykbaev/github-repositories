@@ -6,12 +6,12 @@ export function setupRouter() {
   // setup routes
   const routes = [
     {
-      path: "/github-api-project/",
+      path: "/github-repositories/",
       name: "home",
       component: MainPage,
     },
     {
-      path: "/github-api-project/:owner/:name",
+      path: "/github-repositories/:owner/:name",
       name: "repository",
       component: RepositoryPage,
     },
